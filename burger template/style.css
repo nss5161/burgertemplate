@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+table{
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-collapse: collapse;
+}
+td{
+  margin: 0px;
+  padding: 0px;
+}
+.title{
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #282828;
+  box-sizing: border-box;
+  padding: 7px 30px;
+}
+h2{
+ position: fixed;
+  color: #282828;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.menu{
+  background: #444;
+  position: fixed;
+  width: 100%;
+  height: 25px;
+  top: 75px;
+}
+.top_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  position: fixed;
+  right: 0px;
+  font-size: 12px;
+}
+
+.top_menu_item {
+  float: left;
+}
+
+.top_menu_item a {
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+}
+.top_menu_item a:hover {
+  background-color: #555;
+  border-bottom: 3px solid #399E86;
+}
+.top_menu_item a:active{
+  background-color: #399E86;
+}
+.body{
+  position: fixed;
+  width: 100%;
+  top: px;
+  bottom: 100px;
+}
+.foot{
+  background: #282828;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+}
+.body_container{
+  position: fixed;
+  padding: 25px;
+  top: 115px;
+  bottom: 100px;
+  right: 0px;
+  left: 250px;
+}
+.side_menu_container{
+  position: fixed;
+  top: 100px;
+  bottom: 100px;
+  left: 0px;
+  width: 250px;
+}
+.side_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.menu_item a {
+  display: block;
+  color: #000;
+  padding: 10px 25px;
+  text-decoration: none;
+  height: 40px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+.menu_item a:hover {
+  background-color: #eee;
+  border-left: 5px solid #399E86;
+}
+.menu_item a:active {
+  background-color: #399E86;
+  color: white;
+}
+.space_y{
+  width: 100%;
+  height: 20px;
+}
+.space_x{
+  width: 70px;
+  height: 100%;
+  float:right;
+}
+hr{
+  margin: 0;
+  padding: 0;
+  border: .3px solid #eee;
+}
+
+.shadow
+{
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  height: 100%;
+}
+.content_container{
+  top: 100px;
+  bottom: 100px;
+  left: 250px;
+  right: 0px;
+  position: fixed;
+  border: none;
+}
+
+/******************home.html******************/
+
+.homepage_content{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  border-radius: 100%;
+  background: #eee;
+  min-width: 250px;
+  min-height: 250px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.center_img{
+  width: 100px;
+  height: 100px;
+}
+
+.button_container{
+  padding: 20px 10px 0px 10px;
+}
+
+.btn{
+    background-color: #399E86; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-width: 100px;
+    min-width: 85px;
+    padding: 10px 0px 10px 0px;
+    border-style: none;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:hover{
+  background: #444;
+}
+
+.btn:active {
+  outline: none;
+  border: none;
+  background: #ccc;
+}
+
+.btn:focus {
+  outline: 0 !important;
+}
